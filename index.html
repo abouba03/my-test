@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankDash Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <img src="./assets/logo.svg" alt="Logo">
+            <ul class="menu">
+                <li><a href="#"><img src="./assets/icons/dashboard-icon.svg" alt="Dashboard Icon">
+                        <p>Dashboard</p>
+                    </a></li>
+                <li><a href="#"><img src="./assets/icons/transactions-icon.svg" alt="Transactions Icon">
+                        <p>Transactions</p>
+                    </a></li>
+                <li><a href="#"><img src="./assets/icons/accounts-icon.svg" alt="Accounts Icon">
+                        <p>Accounts</p>
+                    </a></li>
+                <li><a href="#"><img src="./assets/icons/investments-icon.svg" alt="Investments Icon">
+                        <p>Investments</p>
+                    </a></li>
+                <li><a href="#"><img src="./assets/icons/creditcards-icon.svg" alt="Credit Cards Icon">
+                        <p>Credit Cards</p>
+                    </a></li>
+                <li><a href="#"><img src="./assets/icons/loans-icon.svg" alt="Loans Icon">
+                        <p>Loans</p>
+                    </a></li>
+                <li><a href="#"><img src="./assets/icons/services-icon.svg" alt="Services Icon">
+                        <p>Services</p>
+                    </a></li>
+                <li><a href="#"><img src="./assets/icons/privileges-icon.svg" alt="My Privileges Icon">
+                        <p>My Privileges</p>
+                    </a></li>
+                <li><a href="#"><img src="./assets/icons/settings-icon.svg" alt="Settings Icon">
+                        <p>Settings</p>
+                    </a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            
+            <header class="header">
+                <button class="menu-toggle" id="menu-toggle">
+                    <img src="./assets/icons/menu.svg" alt="Menu Icon">
+                </button>
+                <div class="left-section">
+                    <p>Settings</p>
+                </div>
+                <div class="right-section">
+                    <div class="search-container">
+                        <input type="text" class="search-bar" placeholder="Search for something">
+                        <img src="./assets/icons/loop.svg" alt="Search Icon" class="search-icon">
+                    </div>
+                    <div class="icon-container">
+                        <div>
+                            <img src="./assets/icons/settings.svg" alt="Services Icon">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/notif.svg" alt="Services Icon">
+                        </div>
+                    </div>
+                    <img src="./assets/profile1.jpeg" alt="Profile" class="profile-pic">
+                </div>
+            </header>
+
+            <!-- Settings Section -->
+            <section class="settings">
+                <div class="tabs">
+                    <button class="tab-button active">Edit Profile</button>
+                    <button class="tab-button">Preferences</button>
+                    <button class="tab-button">Security</button>
+                </div>
+
+                <form class="profile-form">
+                    <div class="profile-container">
+                        <div class="profile-picture">
+                            <img class="img-profil" src="./assets/profile1.jpeg" alt="Charlene Reed">
+                        </div>
+                        <div class="data-form">
+                            <div class="form-fields">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input class="input-form" type="text" id="name" placeholder="Charlene Reed">
+                                </div>
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input class="input-form" type="text" id="username" placeholder="Charlene Reed">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input class="input-form" type="email" id="email" placeholder="charlenereed@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input class="input-form" type="password" id="password" placeholder="**********">
+                                </div>
+                                <div class="form-group">
+                                    <label for="dob">Date of Birth</label>
+                                    <input class="input-form" type="date" id="dob">
+                                </div>
+                                <div class="form-group">
+                                    <label for="present-address">Present Address</label>
+                                    <input class="input-form" type="text" id="present-address" placeholder="San Jose, California, USA">
+                                </div>
+                                <div class="form-group">
+                                    <label for="permanent-address">Permanent Address</label>
+                                    <input class="input-form" type="text" id="permanent-address" placeholder="San Jose, California, USA">
+                                </div>
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                    <input class="input-form" type="text" id="city" placeholder="San Jose">
+                                </div>
+                                <div class="form-group">
+                                    <label for="postal-code">Postal Code</label>
+                                    <input class="input-form" type="text" id="postal-code" placeholder="45962">
+                                </div>
+                                <div class="form-group">
+                                    <label for="country">Country</label>
+                                    <input class="input-form" type="text" id="country" placeholder="USA">
+                                </div>
+                            </div>
+                            <button type="submit" class="save-button">
+                                <p>Save</p>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
